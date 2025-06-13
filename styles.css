@@ -1,0 +1,241 @@
+body {
+    background-color: #1f2937;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background: #1f2937;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+.first-section {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 32px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.first-section > .first-section {
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    max-width: 400px;
+    margin-right: 200px;
+}
+
+.hero-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 70px;
+}
+
+.second-section {
+    padding: 40px 0;
+}
+
+.second-section > h2 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+}
+
+.box {
+    width: 100%;
+    height: 100px;
+    background: #e0e7ef;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.wrapper p {
+    margin: 0;
+    text-align: center;
+    color: #444;
+    font-size: 0.98rem;
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.quote-box {
+    position: relative;
+    background: #f9fafb;
+    border-left: 4px solid #4f8cff;
+    padding: 32px 40px 48px 32px;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #333;
+    margin: 0 0 24px 0;
+}
+
+.author {
+    position: absolute;
+    right: 24px;
+    bottom: 16px;
+    font-size: 1rem;
+    color: #666;
+    font-style: normal;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.fourth-section > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 40px 32px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    gap: 32px;
+}
+
+.fourth-section .service-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.fourth-section h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.fourth-section p {
+    margin-bottom: 0;
+    text-align: left;
+    color: #444;
+}
+
+.fourth-section button {
+    padding: 10px 28px;
+    font-size: 1rem;
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    align-self: flex-end;
+}
+
+.fourth-section button:hover {
+    background: #2563eb;
+}
+button {
+    padding: 10px 28px;
+    font-size: 1rem;
+    background: #3882F6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.fourth-section button:hover {
+    background: #2563eb;
+}
